@@ -32,9 +32,7 @@ while us:
     t += 1
 
 
-print("Вершина " \
-": Уровень")
+print("Вершина : Уровень")
 for v in sorted(t1):
-    print(v, 
-          ":", t1[v])
+    print(v, ":", t1[v])
 
