@@ -32,7 +32,7 @@ for _ in range(n):
 
     for v in range(n):
         if M[u][v] != 0:
-            w = abs(M[u][v])  # ← ВОТ ГЛАВНОЕ
+            w = abs(M[u][v]) 
             if dist[u] + w < dist[v]:
                 dist[v] = dist[u] + w
                 prev[v] = u
